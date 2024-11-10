@@ -9,5 +9,5 @@ public class testJni
 		int a = 10;		
 		System.out.println("Square is : " + new testJNI.sqr(a));
 	}
-	private native int mul(int n1,int n2);
+	private native int sqr(int a);
 }
